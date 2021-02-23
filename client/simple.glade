@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="window">
+    <property name="can-focus">False</property>
+    <property name="opacity">0.90</property>
+    <property name="modal">True</property>
+    <property name="gravity">static</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="name">label1</property>
+            <property name="width-request">145</property>
+            <property name="height-request">59</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">ВОДА</property>
+            <attributes>
+              <attribute name="scale" value="2"/>
+              <attribute name="foreground" value="#1c1c7171d8d8"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width-request">231</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Электричество</property>
+            <attributes>
+              <attribute name="scale" value="2"/>
+              <attribute name="foreground" value="#f5f5c2c21111"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">200</property>
+            <property name="y">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Газ</property>
+            <attributes>
+              <attribute name="scale" value="2"/>
+              <attribute name="foreground" value="#9a9a99999696"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">465</property>
+            <property name="y">14</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry1">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+          </object>
+          <packing>
+            <property name="x">24</property>
+            <property name="y">114</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry2">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+          </object>
+          <packing>
+            <property name="x">227</property>
+            <property name="y">115</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry3">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+          </object>
+          <packing>
+            <property name="x">440</property>
+            <property name="y">115</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">20</property>
+            <property name="height-request">20</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">м3</property>
+            <attributes>
+              <attribute name="scale" value="1"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">94</property>
+            <property name="y">83</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">41</property>
+            <property name="height-request">20</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">кВт\ч</property>
+          </object>
+          <packing>
+            <property name="x">285</property>
+            <property name="y">79</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">20</property>
+            <property name="height-request">20</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">м3</property>
+          </object>
+          <packing>
+            <property name="x">507</property>
+            <property name="y">81</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Отправить</property>
+            <property name="width-request">128</property>
+            <property name="height-request">64</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">243</property>
+            <property name="y">212</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="labelT">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">41</property>
+            <property name="y">168</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSpinner" id="spinner1">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="active">True</property>
+          </object>
+          <packing>
+            <property name="x">458</property>
+            <property name="y">180</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
