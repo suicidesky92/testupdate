@@ -10,7 +10,8 @@ if __name__ == "__main__":
 
     def update():
         with open('localversion.txt','r+') as fileofv:
-            rv = int(check()); lv = int(fileofv.read())
+            rv = int(check())
+            lv = int(fileofv.read())
             print(f'local version {lv}, remote {rv}')
             if lv != rv:
                 print('try update')
